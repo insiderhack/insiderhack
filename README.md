@@ -1,4 +1,4 @@
-![Banner](https://github.com/AbyanCore/AbyanCore/blob/main/CusBanner.png)
+![Banner](https://github.com/insiderhack/insiderhack/blob/main/CusBanner.png)
 <h1 align="center">Hi 🙌, I am Muhammad Rizki Perdana Putra</h1>
 
 ###
