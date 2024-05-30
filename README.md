@@ -1,5 +1,5 @@
 ![Banner](https://github.com/AbyanCore/AbyanCore/blob/main/CusBanner.png)
-<h1 align="center">Hi 🙌, I am Abyan</h1>
+<h1 align="center">Hi 🙌, I am Muhammad Rizki Perdana Putra</h1>
 
 ###
 
