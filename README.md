@@ -7,7 +7,7 @@
 
 <!-- Typing SVG with multiple animated lines -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=00D2FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%E2%9A%A1+Technical+Consulting+Manager;%F0%9F%A4%96+Data+%26+AI+Architect+%7C+MLOps+Engineer;%F0%9F%90%B3+Self-Hosting+Nerd+%7C+20%2B+Containers;%F0%9F%8C%8D+Open+Source+Contributor+%7C+Homelab+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=00D2FF&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=80&lines=%E2%9A%A1+Technical+Consulting+Manager+%40+Metrodata;%F0%9F%9A%80+TypeScript+%7C+Next.js+%7C+NestJS+%7C+Go+%7C+Python;%F0%9F%94%A5+Big+Data+%7C+Spark+%7C+Kafka+%7C+Cloudera;%F0%9F%A4%96+Data+%26+AI+Architect+%7C+Full+Stack+Engineer" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -63,14 +63,12 @@ location    : Indonesia 🇮🇩
 <td width="50%">
 
 ```yaml
-focus       : Data & AI Architecture
-homelab     : 20+ containers running daily
-interests   :
-  - Self-Hosting & Homelab
-  - Open Source & LLMs
-  - DevOps & MLOps
-  - Scalable Systems
-currently   : Exploring new AI/Data stacks
+focus       : Full Stack · Data · AI Architecture
+stack       : TypeScript, Go, Java, Python
+frameworks  : Next.js, NestJS, Spark
+big_data    : Kafka, Cloudera, Confluent
+tools       : Talend, Tableau, SQL
+currently   : Building data-driven platforms
 ```
 
 </td>
@@ -83,39 +81,7 @@ currently   : Exploring new AI/Data stacks
 
 <div align="center">
 
-**🖥️ Homelab & Data Analytics**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-
-**📱 Mobile & Backend Core**
-
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**☁️ Infrastructure & DevOps**
-
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-**🤖 AI & Data**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+<img src="assets/skills.svg" width="100%" alt="Skills" />
 
 </div>
 
@@ -218,12 +184,13 @@ Go to **Settings → Actions → General → Workflow permissions → Read and w
 
 <!--START_SECTION:waka-->
 ```text
-Kotlin       8 hrs 30 mins   ██████████░░░░░░░░░░░   42.00%
-Java         5 hrs 40 mins   ██████░░░░░░░░░░░░░░░   28.00%
-Python       3 hrs 38 mins   ████░░░░░░░░░░░░░░░░░   18.00%
-C#           1 hr 37 mins    ██░░░░░░░░░░░░░░░░░░░    8.00%
-YAML         24 mins         █░░░░░░░░░░░░░░░░░░░░    2.00%
-Docker       24 mins         █░░░░░░░░░░░░░░░░░░░░    2.00%
+TypeScript   7 hrs 12 mins   ████████████░░░░░░░░░   30.00%
+Go           4 hrs 48 mins   ████████░░░░░░░░░░░░░   20.00%
+Python       4 hrs 05 mins   ███████░░░░░░░░░░░░░░   17.00%
+Java         3 hrs 36 mins   ██████░░░░░░░░░░░░░░░   15.00%
+SQL          2 hrs 24 mins   ████░░░░░░░░░░░░░░░░░   10.00%
+Spark/Scala  1 hr 12 mins    ██░░░░░░░░░░░░░░░░░░░    5.00%
+YAML/Config  43 mins         █░░░░░░░░░░░░░░░░░░░░    3.00%
 ```
 <!--END_SECTION:waka-->
 
@@ -239,10 +206,40 @@ Docker       24 mins         █░░░░░░░░░░░░░░░░
 
 <img src="assets/divider.svg" width="100%" />
 
-## 🏠 Homelab Stack
+## 🏠 Data & Infrastructure Stack
 
 <div align="center">
 <table>
+<tr>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" />
+  <br>TypeScript
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js" />
+  <br>Next.js
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="48" height="48" alt="NestJS" />
+  <br>NestJS
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="48" height="48" alt="Go" />
+  <br>Go
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" height="48" alt="Java" />
+  <br>Java
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" />
+  <br>Python
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="48" height="48" alt="Kafka" />
+  <br>Kafka
+</td>
+</tr>
 <tr>
 <td align="center" width="96">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
@@ -253,24 +250,24 @@ Docker       24 mins         █░░░░░░░░░░░░░░░░
   <br>K8s
 </td>
 <td align="center" width="96">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="48" height="48" alt="Nginx" />
-  <br>Nginx
-</td>
-<td align="center" width="96">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="48" height="48" alt="Grafana" />
-  <br>Grafana
-</td>
-<td align="center" width="96">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="48" height="48" alt="Prometheus" />
-  <br>Prometheus
-</td>
-<td align="center" width="96">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" />
   <br>PostgreSQL
 </td>
 <td align="center" width="96">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="48" height="48" alt="Redis" />
   <br>Redis
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="48" height="48" alt="Grafana" />
+  <br>Grafana
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="48" height="48" alt="Terraform" />
+  <br>Terraform
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="48" height="48" alt="Nginx" />
+  <br>Nginx
 </td>
 </tr>
 </table>
