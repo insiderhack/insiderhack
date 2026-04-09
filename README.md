@@ -1,58 +1,87 @@
 <div align="center">
 
-<!-- LOCAL SVG header — zero external dependency -->
-<img src="assets/header.svg" width="100%" alt="Rizki Perdana Putra" />
+<!-- Animated header banner -->
+<img src="assets/header.svg" width="100%" alt="Muhammad Rizki Perdana Putra" />
 
 <br/>
 
-<!-- Typing SVG via demolab (most reliable external service) -->
+<!-- Typing SVG with multiple animated lines -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&duration=2500&pause=800&color=39A7FF&center=true&vCenter=true&width=560&lines=Technical+Consulting+Manager+%F0%9F%92%BC;Data+%26+AI+Architect+%F0%9F%A4%96;Self-Hosting+Nerd+%7C+20%2B+Containers+%F0%9F%90%B3;Open+Source+Contributor+%F0%9F%8C%8D" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=00D2FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%E2%9A%A1+Technical+Consulting+Manager;%F0%9F%A4%96+Data+%26+AI+Architect+%7C+MLOps+Engineer;%F0%9F%90%B3+Self-Hosting+Nerd+%7C+20%2B+Containers;%F0%9F%8C%8D+Open+Source+Contributor+%7C+Homelab+Enthusiast" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- Social badges (shields.io — always reliable) -->
+<!-- Social badges with hover effects -->
 <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+&nbsp;
 <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
+&nbsp;
 <a href="https://discordapp.com/users/YOUR_DISCORD_ID">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
+&nbsp;
 <a href="mailto:rizki.putra@metrodata.co.id">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
+&nbsp;
 <a href="https://github.com/insiderhack">
   <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=insiderhack&label=Profile+Views&color=39A7FF&style=flat-square" />
+<img src="https://komarev.com/ghpvc/?username=insiderhack&label=Profile+Views&color=00D2FF&style=flat-square" />
+&nbsp;&nbsp;
+<img src="https://img.shields.io/github/followers/insiderhack?label=Followers&style=flat-square&color=7F52FF&labelColor=0D1117&logo=github&logoColor=white" />
+&nbsp;&nbsp;
+<img src="https://img.shields.io/github/stars/insiderhack?affiliations=OWNER&label=Stars&style=flat-square&color=FFC107&labelColor=0D1117&logo=github&logoColor=white" />
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" />
 
-## ⭐ About Me
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;About Me
+
+<table>
+<tr>
+<td width="50%">
 
 ```yaml
-name        : Rizki Perdana Putra
+name        : Muhammad Rizki Perdana Putra
+short_name  : Muhammad Rizki
 role        : Technical Consulting Manager
 company     : Metrodata
 location    : Indonesia 🇮🇩
-focus       : Data & AI Architecture · Homelab · Scalable Systems
-containers  : 20+ running on daily driver
-interests   : [Self-Hosting, Open Source, LLMs, DevOps, MLOps]
-currently   : Exploring new AI/Data tech stacks
 ```
 
----
+</td>
+<td width="50%">
 
-## 💻 Tech Stack & Expertise
+```yaml
+focus       : Data & AI Architecture
+homelab     : 20+ containers running daily
+interests   :
+  - Self-Hosting & Homelab
+  - Open Source & LLMs
+  - DevOps & MLOps
+  - Scalable Systems
+currently   : Exploring new AI/Data stacks
+```
+
+</td>
+</tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" />
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> &nbsp;Tech Stack & Expertise
+
+<div align="center">
 
 **🖥️ Homelab & Data Analytics**
 
@@ -81,13 +110,21 @@ currently   : Exploring new AI/Data tech stacks
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
----
+**🤖 AI & Data**
 
-## 📊 GitHub Stats & Metrics
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+
+</div>
+
+<img src="assets/divider.svg" width="100%" />
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;GitHub Stats & Metrics
 
 <div align="center">
 
-<!-- LOCAL SVGs — always render, no external service needed -->
 <img src="assets/stats.svg" height="195" alt="GitHub Stats" />
 &nbsp;&nbsp;
 <img src="assets/langs.svg" height="195" alt="Top Languages" />
@@ -98,33 +135,32 @@ currently   : Exploring new AI/Data tech stacks
 
 <div align="center">
 
-<!-- Streak: demolab is the actively maintained version -->
-<img src="https://streak-stats.demolab.com/?user=insiderhack&theme=tokyonight-duo&background=0D1117&hide_border=true&ring=39A7FF&fire=FFC107&currStreakNum=39A7FF&sideNums=7F52FF&sideTitles=BDC3C7&dates=6B7A99&currStreakLabel=39A7FF" width="65%" alt="GitHub Streak" />
+<!-- Streak stats -->
+<img src="https://streak-stats.demolab.com/?user=insiderhack&theme=tokyonight-duo&background=0D1117&hide_border=true&ring=00D2FF&fire=FF6FD8&currStreakNum=00D2FF&sideNums=7F52FF&sideTitles=BDC3C7&dates=6B7A99&currStreakLabel=00D2FF" width="65%" alt="GitHub Streak" />
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 🏆 GitHub Trophies
 
 <div align="center">
 
-<!-- LOCAL SVG trophies — fully self-contained -->
 <img src="assets/trophies.svg" width="100%" alt="GitHub Trophies" />
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 📈 Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=insiderhack&radius=6&theme=tokyo-night&bg_color=0D1117&color=39A7FF&line=7F52FF&point=FFC107&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=insiderhack&radius=6&theme=tokyo-night&bg_color=0D1117&color=00D2FF&line=7F52FF&point=FF6FD8&hide_border=true&area=true&area_color=7F52FF" width="100%" alt="Activity Graph" />
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 ## 🐍 Contribution Snake
 
@@ -176,7 +212,22 @@ Go to **Settings → Actions → General → Workflow permissions → Read and w
 
 </details>
 
----
+<img src="assets/divider.svg" width="100%" />
+
+## 🎯 Weekly Development Breakdown
+
+<!--START_SECTION:waka-->
+```text
+Kotlin       8 hrs 30 mins   ██████████░░░░░░░░░░░   42.00%
+Java         5 hrs 40 mins   ██████░░░░░░░░░░░░░░░   28.00%
+Python       3 hrs 38 mins   ████░░░░░░░░░░░░░░░░░   18.00%
+C#           1 hr 37 mins    ██░░░░░░░░░░░░░░░░░░░    8.00%
+YAML         24 mins         █░░░░░░░░░░░░░░░░░░░░    2.00%
+Docker       24 mins         █░░░░░░░░░░░░░░░░░░░░    2.00%
+```
+<!--END_SECTION:waka-->
+
+<img src="assets/divider.svg" width="100%" />
 
 ## 💬 Random Dev Quote
 
@@ -186,21 +237,62 @@ Go to **Settings → Actions → General → Workflow permissions → Read and w
 
 </div>
 
+<img src="assets/divider.svg" width="100%" />
+
+## 🏠 Homelab Stack
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
+  <br>Docker
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="48" height="48" alt="K8s" />
+  <br>K8s
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="48" height="48" alt="Nginx" />
+  <br>Nginx
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="48" height="48" alt="Grafana" />
+  <br>Grafana
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="48" height="48" alt="Prometheus" />
+  <br>Prometheus
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" />
+  <br>PostgreSQL
+</td>
+<td align="center" width="96">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="48" height="48" alt="Redis" />
+  <br>Redis
+</td>
+</tr>
+</table>
+</div>
+
 ---
 
 <div align="center">
 
-<!-- LOCAL SVG footer wave -->
+<!-- Footer wave -->
 <img src="assets/footer.svg" width="100%" alt="" />
 
 <br/>
 
-<img src="https://img.shields.io/github/followers/insiderhack?label=Followers&style=flat-square&color=7F52FF&labelColor=0D1117&logo=github&logoColor=white" />
-&nbsp;
-<img src="https://img.shields.io/github/stars/insiderhack?affiliations=OWNER&label=Total%20Stars&style=flat-square&color=FFC107&labelColor=0D1117&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Made%20with-❤️%20and%20☕-FF6FD8?style=flat-square&labelColor=0D1117" />
 
 <br/><br/>
 
 **⚡ "The best infrastructure is the one you never have to think about."**
+
+<br/>
+
+<sub>🔧 This profile auto-updates via GitHub Actions</sub>
 
 </div>

@@ -1,24 +1,71 @@
-<svg width="900" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7F52FF"/>
-      <stop offset="100%" style="stop-color:#39A7FF"/>
+    <linearGradient id="bgFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#0D1117;stop-opacity:1"/>
     </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D2FF"/>
+      <stop offset="50%" style="stop-color:#7F52FF"/>
+      <stop offset="100%" style="stop-color:#FF6FD8"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6FD8"/>
+      <stop offset="50%" style="stop-color:#FFC107"/>
+      <stop offset="100%" style="stop-color:#00D2FF"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <path fill="url(#waveGrad)" opacity="0.25">
-    <animate attributeName="d" dur="7s" repeatCount="indefinite"
-      values="
-        M0,30 C200,10 400,55 600,30 C750,12 850,38 900,28 L900,100 L0,100 Z;
-        M0,28 C200,48 400,18 600,38 C750,55 850,22 900,30 L900,100 L0,100 Z;
-        M0,30 C200,10 400,55 600,30 C750,12 850,38 900,28 L900,100 L0,100 Z
-      "/>
+
+  <rect width="900" height="150" fill="url(#bgFade)"/>
+
+  <!-- Wave layer 3 (back) -->
+  <path fill="url(#waveGrad2)" opacity="0.15">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+      M0,40 C100,20 200,60 300,40 C400,20 500,55 600,38 C700,20 800,50 900,35 L900,150 L0,150 Z;
+      M0,35 C100,50 200,25 300,45 C400,60 500,30 600,42 C700,55 800,28 900,40 L900,150 L0,150 Z;
+      M0,40 C100,20 200,60 300,40 C400,20 500,55 600,38 C700,20 800,50 900,35 L900,150 L0,150 Z"/>
   </path>
-  <path fill="url(#waveGrad)" opacity="0.5">
-    <animate attributeName="d" dur="5s" repeatCount="indefinite"
-      values="
-        M0,50 C220,30 440,70 660,48 C780,34 860,55 900,45 L900,100 L0,100 Z;
-        M0,45 C220,65 440,35 660,55 C780,70 860,42 900,50 L900,100 L0,100 Z;
-        M0,50 C220,30 440,70 660,48 C780,34 860,55 900,45 L900,100 L0,100 Z
-      "/>
+
+  <!-- Wave layer 2 (middle) -->
+  <path fill="url(#waveGrad)" opacity="0.2">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
+      M0,55 C200,35 400,80 600,55 C750,37 850,63 900,53 L900,150 L0,150 Z;
+      M0,53 C200,70 400,42 600,60 C750,78 850,48 900,55 L900,150 L0,150 Z;
+      M0,55 C200,35 400,80 600,55 C750,37 850,63 900,53 L900,150 L0,150 Z"/>
   </path>
+
+  <!-- Wave layer 1 (front) -->
+  <path fill="url(#waveGrad)" opacity="0.35">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" values="
+      M0,75 C220,55 440,95 660,73 C780,59 860,80 900,70 L900,150 L0,150 Z;
+      M0,70 C220,88 440,58 660,78 C780,93 860,65 900,75 L900,150 L0,150 Z;
+      M0,75 C220,55 440,95 660,73 C780,59 860,80 900,70 L900,150 L0,150 Z"/>
+  </path>
+
+  <!-- Floating particles -->
+  <circle cx="150" cy="45" r="1.2" fill="#00D2FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="45;38;45" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="35" r="1" fill="#FF6FD8" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="700" cy="50" r="1.5" fill="#7F52FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="cy" values="50;42;50" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+
+  <!-- Bottom line glow -->
+  <line x1="100" y1="135" x2="800" y2="135" stroke="url(#waveGrad)" stroke-width="0.5" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Footer text -->
+  <text x="450" y="145" font-family="'Courier New', monospace" font-size="10" text-anchor="middle" fill="#6B7A99" letter-spacing="2" opacity="0.5">
+    crafted with passion by Muhammad Rizki
+  </text>
 </svg>
