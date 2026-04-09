@@ -156,25 +156,34 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
+
+      - name: Push to output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
 ```
 
-Go to **Settings → Actions → General → Workflow permissions → Read and write**, then run the workflow once manually.
+**Setup steps:**
+1. Go to **Settings → Actions → General → Workflow permissions** → select **Read and write** ✅ (you already did this)
+2. Go to **Actions** tab → click **Generate Snake** on the left → click **Run workflow** → **Run workflow**
+3. Wait ~30 seconds for it to complete, then refresh your profile page
 
 </details>
 
