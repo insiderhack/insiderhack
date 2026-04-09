@@ -143,50 +143,6 @@ currently   : Building data-driven platforms
 
 </div>
 
-<details>
-<summary>⚙️ Snake workflow setup (click to expand)</summary>
-
-Create `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-```
-
-**Setup steps:**
-1. Go to **Settings → Actions → General → Workflow permissions** → select **Read and write** ✅ (you already did this)
-2. Go to **Actions** tab → click **Generate Snake** on the left → click **Run workflow** → **Run workflow**
-3. Wait ~30 seconds for it to complete, then refresh your profile page
-
-</details>
-
 <img src="assets/divider.svg" width="100%" />
 
 ## 🎯 Weekly Development Breakdown
